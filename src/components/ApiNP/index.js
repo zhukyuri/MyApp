@@ -66,11 +66,11 @@ class FormNovaPochta extends React.Component {
 
   shouldComponentUpdate() {
     if (!this.state.selectArea) {
-      console.log('should: Not selectArea', this.state);
+      console.log('!!! should: Not selectArea', this.state);
       return false;
     }
     else if (!this.state.selectCity) {
-      console.log('should: Not selectCities', this.state);
+      console.log('!!! should: Not selectCities', this.state);
       return false;
     }
     else return true;

@@ -1,9 +1,19 @@
 {
+  "name": "MyApp",
+  "version": "1.0.2",
+  "description": "MyApp",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhukyuri/MyApp"
+  },
   "private": true,
   "engines": {
     "node": ">=5.0 <7",
     "npm": ">=3.3 <4"
   },
+  "author": "Yuriy Zhuk",
+  "license": "MIT",
+  "homepage": "https://github.com/zhukyuri/MyApp",
   "dependencies": {
     "axios": "^0.15.2",
     "babel-polyfill": "6.13.0",
@@ -39,7 +49,8 @@
     "sqlite3": "3.1.4",
     "universal-router": "1.2.2",
     "whatwg-fetch": "1.0.0",
-    "yz-react-deliveri-newpochta": "^1.0.33"
+    "yz-react-deliveri-newpochta": "^1.0.33",
+    "yz-react-delivery-newpochta-form": "^1.0.10"
   },
   "devDependencies": {
     "assets-webpack-plugin": "^3.4.0",
