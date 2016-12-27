@@ -16,6 +16,7 @@ import Link from '../Link';
 function Navigation({ className }) {
   return (
     <div className={cx(s.root, className)} role="navigation">
+      <Link className={s.link} to="/store-test">Магазин</Link>
       <Link className={s.link} to="/newpost">Нова почта</Link>
       <span className={s.spacer}> | </span>
       <Link className={s.link} to="/about">About</Link>

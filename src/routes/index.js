@@ -22,6 +22,7 @@ export default {
     require('./register').default,
     require('./admin').default,
     require('./newPost').default,
+    require('./storeContainerFlex').default,
 
     // place new routes before...
     require('./content').default,

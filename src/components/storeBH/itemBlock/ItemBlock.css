@@ -1,0 +1,235 @@
+.root {
+}
+
+.cursorPointer {
+  cursor: pointer
+}
+
+.b {
+  border: 1px solid #e9e7ee;
+  padding: 5px;
+}
+
+.itemContainer {
+  box-sizing: border-box;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 100px;
+  /*border: 1px solid #bd13c2*/;
+}
+
+
+.imageZone {
+  /*border: 1px solid #c23321;*/
+  /*height: 417px;*/
+  /*background-color: #61dafb;*/
+}
+.itemImg {
+  display: block;
+  align-content: center;
+}
+.image {
+  width: 90%;
+  height: 90%;
+  display: block;
+  margin: auto;
+}
+.grow01 { flex-grow: 1}
+.grow02 { flex-grow: 2}
+.grow03 { flex-grow: 3}
+.grow04 { flex-grow: 4}
+.grow05 { flex-grow: 5}
+.grow06 { flex-grow: 6}
+.grow07 { flex-grow: 7}
+.grow08 { flex-grow: 8}
+.grow09 { flex-grow: 9}
+.grow10 { flex-grow: 10}
+.grow11 { flex-grow: 11}
+.grow12 { flex-grow: 12}
+
+.reviewStarsZone {
+  /*border: 1px solid #c23321;*/
+  margin: 0;
+/*  background-color: #a8fbfb;*/
+}
+.reviewStarsGrey { fill: #aaabab; }
+.reviewStarsGreen { fill: #15901b; }
+.reviewStarsInner {
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+}
+.reviewStars {
+  display: inline-block;
+  position: relative;
+  vertical-align: 1px;
+}
+.reviewStarsSvg {
+  height: 30px;
+  width: 80px
+}
+
+.listDetailStars {
+  text-decoration: none;
+  font-size: 10px;
+  display: inline-block;
+  margin: auto 20%;
+}
+
+/* Zone NAME */
+.nameProductBlock {
+  margin: 0;
+  display: inline-block;
+  box-sizing: border-box;
+  text-align: center;
+  height: 36px;
+  line-height: 14px;
+  /*border: 1px solid #c23321;*/
+}
+.nameProduct {
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 800;
+  box-sizing: border-box;
+}
+
+/* Zone INFO */
+.infoBlock {
+  display: block;
+  border-top: 1px dotted #d8d8d8;
+  border-bottom: 0 none;
+}
+
+/* Zone PRICE */
+.priceBlock {
+  display: block;
+}
+
+.priceYouPay {
+  font-size: 13px;
+  font-weight: 700;
+  color: #900;
+  line-height: 20px;
+}
+.price {
+  clear: right;
+  float: right
+}
+.youpay {
+  clear: left;
+  float: left
+}
+
+/*Drop Down Wishst
+
+- wishlistDropdown
+-| jsToggleWishlistList
+-|--| itemNotInAnyList
+-|--| itemInSomeList
+-|--| dropdownArrow
+-| wishlistList
+-|--| wishlistListWrapper
+-|--|--|
+*/
+
+.wishlistDropdown {
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 5px 10px;
+  text-align: left;
+  position: relative;
+  font-size: 10px;
+}
+
+.wishlistList {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  width: 100%;
+  background: #fff;
+  z-index: 999;
+  margin-top: 1px;
+  text-align: left;
+  padding: 4px 0;
+  display: none;
+}
+
+.wishlistListWrapper {
+  max-height: 200px;
+  overflow: auto;
+}
+
+.jsToggleWishlistList {
+  margin-right: 12px
+}
+.wishlistLink {
+  color: #404040;
+  padding: 6px 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 3px;
+  display: block
+}
+
+.wishlistLink {
+  color: #404040;
+  padding: 6px 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 3px;
+  display: block
+}
+
+.wishlistLink.itemInList,
+.wishlistLink:hover {
+  font-weight: 600;
+  background-color: #c8c8c8
+}
+
+.itemInSomeList svg {
+  position: relative;
+  left: 4px;
+  width: 18px;
+  height: 10px;
+  fill: #333
+}
+
+.dropdownArrow {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  border-left: 1px solid #ccc;
+  padding: 5px;
+  background-color: #c8c8c8
+}
+
+.dropdownArrow svg {
+  width: 14px;
+  height: 10px;
+  fill: #333
+}
+
+.itemNotInAnyList {
+  display: block
+}
+
+.noUnderline {
+  text-decoration: none
+}
+
+.addNewWishlist {
+  border-top: 1px solid #ccc;
+  padding: 10px 10px 6px;
+  margin-top: 4px;
+  color: #0a92ca
+}
